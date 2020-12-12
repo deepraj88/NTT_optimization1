@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ntt.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_ntt_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="group1">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group2">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group3">
+            <obj_property name="label">q7(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q7_q1">
+               <obj_property name="ElementShortName">q7_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q7_d1">
+               <obj_property name="ElementShortName">q7_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q7_we1">
+               <obj_property name="ElementShortName">q7_we1</obj_property>
+               <obj_property name="ObjectShortName">q7_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q7_ce1">
+               <obj_property name="ElementShortName">q7_ce1</obj_property>
+               <obj_property name="ObjectShortName">q7_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q7_address1">
+               <obj_property name="ElementShortName">q7_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q7_q0">
+               <obj_property name="ElementShortName">q7_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q7_d0">
+               <obj_property name="ElementShortName">q7_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q7_we0">
+               <obj_property name="ElementShortName">q7_we0</obj_property>
+               <obj_property name="ObjectShortName">q7_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q7_ce0">
+               <obj_property name="ElementShortName">q7_ce0</obj_property>
+               <obj_property name="ObjectShortName">q7_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q7_address0">
+               <obj_property name="ElementShortName">q7_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group14">
+            <obj_property name="label">q6(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q6_q1">
+               <obj_property name="ElementShortName">q6_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q6_d1">
+               <obj_property name="ElementShortName">q6_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q6_we1">
+               <obj_property name="ElementShortName">q6_we1</obj_property>
+               <obj_property name="ObjectShortName">q6_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q6_ce1">
+               <obj_property name="ElementShortName">q6_ce1</obj_property>
+               <obj_property name="ObjectShortName">q6_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q6_address1">
+               <obj_property name="ElementShortName">q6_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q6_q0">
+               <obj_property name="ElementShortName">q6_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q6_d0">
+               <obj_property name="ElementShortName">q6_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q6_we0">
+               <obj_property name="ElementShortName">q6_we0</obj_property>
+               <obj_property name="ObjectShortName">q6_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q6_ce0">
+               <obj_property name="ElementShortName">q6_ce0</obj_property>
+               <obj_property name="ObjectShortName">q6_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q6_address0">
+               <obj_property name="ElementShortName">q6_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group25">
+            <obj_property name="label">q5(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q5_q1">
+               <obj_property name="ElementShortName">q5_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q5_d1">
+               <obj_property name="ElementShortName">q5_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q5_we1">
+               <obj_property name="ElementShortName">q5_we1</obj_property>
+               <obj_property name="ObjectShortName">q5_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q5_ce1">
+               <obj_property name="ElementShortName">q5_ce1</obj_property>
+               <obj_property name="ObjectShortName">q5_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q5_address1">
+               <obj_property name="ElementShortName">q5_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q5_q0">
+               <obj_property name="ElementShortName">q5_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q5_d0">
+               <obj_property name="ElementShortName">q5_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q5_we0">
+               <obj_property name="ElementShortName">q5_we0</obj_property>
+               <obj_property name="ObjectShortName">q5_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q5_ce0">
+               <obj_property name="ElementShortName">q5_ce0</obj_property>
+               <obj_property name="ObjectShortName">q5_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q5_address0">
+               <obj_property name="ElementShortName">q5_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group36">
+            <obj_property name="label">q4(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q4_q1">
+               <obj_property name="ElementShortName">q4_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q4_d1">
+               <obj_property name="ElementShortName">q4_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q4_we1">
+               <obj_property name="ElementShortName">q4_we1</obj_property>
+               <obj_property name="ObjectShortName">q4_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q4_ce1">
+               <obj_property name="ElementShortName">q4_ce1</obj_property>
+               <obj_property name="ObjectShortName">q4_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q4_address1">
+               <obj_property name="ElementShortName">q4_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q4_q0">
+               <obj_property name="ElementShortName">q4_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q4_d0">
+               <obj_property name="ElementShortName">q4_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q4_we0">
+               <obj_property name="ElementShortName">q4_we0</obj_property>
+               <obj_property name="ObjectShortName">q4_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q4_ce0">
+               <obj_property name="ElementShortName">q4_ce0</obj_property>
+               <obj_property name="ObjectShortName">q4_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q4_address0">
+               <obj_property name="ElementShortName">q4_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group47">
+            <obj_property name="label">q3(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q3_q1">
+               <obj_property name="ElementShortName">q3_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q3_d1">
+               <obj_property name="ElementShortName">q3_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q3_we1">
+               <obj_property name="ElementShortName">q3_we1</obj_property>
+               <obj_property name="ObjectShortName">q3_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q3_ce1">
+               <obj_property name="ElementShortName">q3_ce1</obj_property>
+               <obj_property name="ObjectShortName">q3_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q3_address1">
+               <obj_property name="ElementShortName">q3_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q3_q0">
+               <obj_property name="ElementShortName">q3_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q3_d0">
+               <obj_property name="ElementShortName">q3_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q3_we0">
+               <obj_property name="ElementShortName">q3_we0</obj_property>
+               <obj_property name="ObjectShortName">q3_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q3_ce0">
+               <obj_property name="ElementShortName">q3_ce0</obj_property>
+               <obj_property name="ObjectShortName">q3_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q3_address0">
+               <obj_property name="ElementShortName">q3_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group58">
+            <obj_property name="label">q2(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q2_q1">
+               <obj_property name="ElementShortName">q2_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q2_d1">
+               <obj_property name="ElementShortName">q2_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q2_we1">
+               <obj_property name="ElementShortName">q2_we1</obj_property>
+               <obj_property name="ObjectShortName">q2_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q2_ce1">
+               <obj_property name="ElementShortName">q2_ce1</obj_property>
+               <obj_property name="ObjectShortName">q2_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q2_address1">
+               <obj_property name="ElementShortName">q2_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q2_q0">
+               <obj_property name="ElementShortName">q2_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q2_d0">
+               <obj_property name="ElementShortName">q2_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q2_we0">
+               <obj_property name="ElementShortName">q2_we0</obj_property>
+               <obj_property name="ObjectShortName">q2_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q2_ce0">
+               <obj_property name="ElementShortName">q2_ce0</obj_property>
+               <obj_property name="ObjectShortName">q2_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q2_address0">
+               <obj_property name="ElementShortName">q2_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group69">
+            <obj_property name="label">q1(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q1_q1">
+               <obj_property name="ElementShortName">q1_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q1_d1">
+               <obj_property name="ElementShortName">q1_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q1_we1">
+               <obj_property name="ElementShortName">q1_we1</obj_property>
+               <obj_property name="ObjectShortName">q1_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q1_ce1">
+               <obj_property name="ElementShortName">q1_ce1</obj_property>
+               <obj_property name="ObjectShortName">q1_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q1_address1">
+               <obj_property name="ElementShortName">q1_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q1_q0">
+               <obj_property name="ElementShortName">q1_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q1_d0">
+               <obj_property name="ElementShortName">q1_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q1_we0">
+               <obj_property name="ElementShortName">q1_we0</obj_property>
+               <obj_property name="ObjectShortName">q1_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q1_ce0">
+               <obj_property name="ElementShortName">q1_ce0</obj_property>
+               <obj_property name="ObjectShortName">q1_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q1_address0">
+               <obj_property name="ElementShortName">q1_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group80">
+            <obj_property name="label">q0(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q0_q1">
+               <obj_property name="ElementShortName">q0_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q0_d1">
+               <obj_property name="ElementShortName">q0_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q0_we1">
+               <obj_property name="ElementShortName">q0_we1</obj_property>
+               <obj_property name="ObjectShortName">q0_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q0_ce1">
+               <obj_property name="ElementShortName">q0_ce1</obj_property>
+               <obj_property name="ObjectShortName">q0_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q0_address1">
+               <obj_property name="ElementShortName">q0_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q0_q0">
+               <obj_property name="ElementShortName">q0_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q0_d0">
+               <obj_property name="ElementShortName">q0_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q0_we0">
+               <obj_property name="ElementShortName">q0_we0</obj_property>
+               <obj_property name="ObjectShortName">q0_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/q0_ce0">
+               <obj_property name="ElementShortName">q0_ce0</obj_property>
+               <obj_property name="ObjectShortName">q0_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/q0_address0">
+               <obj_property name="ElementShortName">q0_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group91">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group92">
+            <obj_property name="label">zetas(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/zetas_q1">
+               <obj_property name="ElementShortName">zetas_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">zetas_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/zetas_ce1">
+               <obj_property name="ElementShortName">zetas_ce1</obj_property>
+               <obj_property name="ObjectShortName">zetas_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/zetas_address1">
+               <obj_property name="ElementShortName">zetas_address1[7:0]</obj_property>
+               <obj_property name="ObjectShortName">zetas_address1[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/zetas_q0">
+               <obj_property name="ElementShortName">zetas_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">zetas_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/zetas_ce0">
+               <obj_property name="ElementShortName">zetas_ce0</obj_property>
+               <obj_property name="ObjectShortName">zetas_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AESL_inst_ntt/zetas_address0">
+               <obj_property name="ElementShortName">zetas_address0[7:0]</obj_property>
+               <obj_property name="ObjectShortName">zetas_address0[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group99">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/ap_idle">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group104">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/ap_rst">
+            <obj_property name="ElementShortName">ap_rst</obj_property>
+            <obj_property name="ObjectShortName">ap_rst</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group106">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_ntt_top/AESL_inst_ntt/ap_clk">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group108">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group109">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group110">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/AUTOTB_TRANSACTION_NUM">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/ready_cnt">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/done_cnt">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group111">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/LENGTH_q0">
+               <obj_property name="ElementShortName">LENGTH_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/LENGTH_q1">
+               <obj_property name="ElementShortName">LENGTH_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/LENGTH_q2">
+               <obj_property name="ElementShortName">LENGTH_q2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_q2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/LENGTH_q3">
+               <obj_property name="ElementShortName">LENGTH_q3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_q3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/LENGTH_q4">
+               <obj_property name="ElementShortName">LENGTH_q4[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_q4[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/LENGTH_q5">
+               <obj_property name="ElementShortName">LENGTH_q5[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_q5[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/LENGTH_q6">
+               <obj_property name="ElementShortName">LENGTH_q6[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_q6[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/LENGTH_q7">
+               <obj_property name="ElementShortName">LENGTH_q7[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_q7[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/LENGTH_zetas">
+               <obj_property name="ElementShortName">LENGTH_zetas[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_zetas[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group124">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group125">
+            <obj_property name="label">q7(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q7_q1">
+               <obj_property name="ElementShortName">q7_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q7_d1">
+               <obj_property name="ElementShortName">q7_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q7_we1">
+               <obj_property name="ElementShortName">q7_we1</obj_property>
+               <obj_property name="ObjectShortName">q7_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q7_ce1">
+               <obj_property name="ElementShortName">q7_ce1</obj_property>
+               <obj_property name="ObjectShortName">q7_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q7_address1">
+               <obj_property name="ElementShortName">q7_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q7_q0">
+               <obj_property name="ElementShortName">q7_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q7_d0">
+               <obj_property name="ElementShortName">q7_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q7_we0">
+               <obj_property name="ElementShortName">q7_we0</obj_property>
+               <obj_property name="ObjectShortName">q7_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q7_ce0">
+               <obj_property name="ElementShortName">q7_ce0</obj_property>
+               <obj_property name="ObjectShortName">q7_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q7_address0">
+               <obj_property name="ElementShortName">q7_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q7_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group136">
+            <obj_property name="label">q6(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q6_q1">
+               <obj_property name="ElementShortName">q6_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q6_d1">
+               <obj_property name="ElementShortName">q6_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q6_we1">
+               <obj_property name="ElementShortName">q6_we1</obj_property>
+               <obj_property name="ObjectShortName">q6_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q6_ce1">
+               <obj_property name="ElementShortName">q6_ce1</obj_property>
+               <obj_property name="ObjectShortName">q6_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q6_address1">
+               <obj_property name="ElementShortName">q6_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q6_q0">
+               <obj_property name="ElementShortName">q6_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q6_d0">
+               <obj_property name="ElementShortName">q6_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q6_we0">
+               <obj_property name="ElementShortName">q6_we0</obj_property>
+               <obj_property name="ObjectShortName">q6_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q6_ce0">
+               <obj_property name="ElementShortName">q6_ce0</obj_property>
+               <obj_property name="ObjectShortName">q6_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q6_address0">
+               <obj_property name="ElementShortName">q6_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q6_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group147">
+            <obj_property name="label">q5(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q5_q1">
+               <obj_property name="ElementShortName">q5_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q5_d1">
+               <obj_property name="ElementShortName">q5_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q5_we1">
+               <obj_property name="ElementShortName">q5_we1</obj_property>
+               <obj_property name="ObjectShortName">q5_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q5_ce1">
+               <obj_property name="ElementShortName">q5_ce1</obj_property>
+               <obj_property name="ObjectShortName">q5_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q5_address1">
+               <obj_property name="ElementShortName">q5_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q5_q0">
+               <obj_property name="ElementShortName">q5_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q5_d0">
+               <obj_property name="ElementShortName">q5_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q5_we0">
+               <obj_property name="ElementShortName">q5_we0</obj_property>
+               <obj_property name="ObjectShortName">q5_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q5_ce0">
+               <obj_property name="ElementShortName">q5_ce0</obj_property>
+               <obj_property name="ObjectShortName">q5_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q5_address0">
+               <obj_property name="ElementShortName">q5_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q5_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group158">
+            <obj_property name="label">q4(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q4_q1">
+               <obj_property name="ElementShortName">q4_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q4_d1">
+               <obj_property name="ElementShortName">q4_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q4_we1">
+               <obj_property name="ElementShortName">q4_we1</obj_property>
+               <obj_property name="ObjectShortName">q4_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q4_ce1">
+               <obj_property name="ElementShortName">q4_ce1</obj_property>
+               <obj_property name="ObjectShortName">q4_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q4_address1">
+               <obj_property name="ElementShortName">q4_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q4_q0">
+               <obj_property name="ElementShortName">q4_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q4_d0">
+               <obj_property name="ElementShortName">q4_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q4_we0">
+               <obj_property name="ElementShortName">q4_we0</obj_property>
+               <obj_property name="ObjectShortName">q4_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q4_ce0">
+               <obj_property name="ElementShortName">q4_ce0</obj_property>
+               <obj_property name="ObjectShortName">q4_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q4_address0">
+               <obj_property name="ElementShortName">q4_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q4_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group169">
+            <obj_property name="label">q3(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q3_q1">
+               <obj_property name="ElementShortName">q3_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q3_d1">
+               <obj_property name="ElementShortName">q3_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q3_we1">
+               <obj_property name="ElementShortName">q3_we1</obj_property>
+               <obj_property name="ObjectShortName">q3_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q3_ce1">
+               <obj_property name="ElementShortName">q3_ce1</obj_property>
+               <obj_property name="ObjectShortName">q3_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q3_address1">
+               <obj_property name="ElementShortName">q3_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q3_q0">
+               <obj_property name="ElementShortName">q3_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q3_d0">
+               <obj_property name="ElementShortName">q3_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q3_we0">
+               <obj_property name="ElementShortName">q3_we0</obj_property>
+               <obj_property name="ObjectShortName">q3_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q3_ce0">
+               <obj_property name="ElementShortName">q3_ce0</obj_property>
+               <obj_property name="ObjectShortName">q3_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q3_address0">
+               <obj_property name="ElementShortName">q3_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q3_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group180">
+            <obj_property name="label">q2(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q2_q1">
+               <obj_property name="ElementShortName">q2_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q2_d1">
+               <obj_property name="ElementShortName">q2_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q2_we1">
+               <obj_property name="ElementShortName">q2_we1</obj_property>
+               <obj_property name="ObjectShortName">q2_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q2_ce1">
+               <obj_property name="ElementShortName">q2_ce1</obj_property>
+               <obj_property name="ObjectShortName">q2_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q2_address1">
+               <obj_property name="ElementShortName">q2_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q2_q0">
+               <obj_property name="ElementShortName">q2_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q2_d0">
+               <obj_property name="ElementShortName">q2_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q2_we0">
+               <obj_property name="ElementShortName">q2_we0</obj_property>
+               <obj_property name="ObjectShortName">q2_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q2_ce0">
+               <obj_property name="ElementShortName">q2_ce0</obj_property>
+               <obj_property name="ObjectShortName">q2_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q2_address0">
+               <obj_property name="ElementShortName">q2_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q2_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group191">
+            <obj_property name="label">q1(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q1_q1">
+               <obj_property name="ElementShortName">q1_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q1_d1">
+               <obj_property name="ElementShortName">q1_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q1_we1">
+               <obj_property name="ElementShortName">q1_we1</obj_property>
+               <obj_property name="ObjectShortName">q1_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q1_ce1">
+               <obj_property name="ElementShortName">q1_ce1</obj_property>
+               <obj_property name="ObjectShortName">q1_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q1_address1">
+               <obj_property name="ElementShortName">q1_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q1_q0">
+               <obj_property name="ElementShortName">q1_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q1_d0">
+               <obj_property name="ElementShortName">q1_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q1_we0">
+               <obj_property name="ElementShortName">q1_we0</obj_property>
+               <obj_property name="ObjectShortName">q1_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q1_ce0">
+               <obj_property name="ElementShortName">q1_ce0</obj_property>
+               <obj_property name="ObjectShortName">q1_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q1_address0">
+               <obj_property name="ElementShortName">q1_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q1_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group202">
+            <obj_property name="label">q0(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q0_q1">
+               <obj_property name="ElementShortName">q0_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q0_d1">
+               <obj_property name="ElementShortName">q0_d1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_d1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q0_we1">
+               <obj_property name="ElementShortName">q0_we1</obj_property>
+               <obj_property name="ObjectShortName">q0_we1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q0_ce1">
+               <obj_property name="ElementShortName">q0_ce1</obj_property>
+               <obj_property name="ObjectShortName">q0_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q0_address1">
+               <obj_property name="ElementShortName">q0_address1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_address1[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q0_q0">
+               <obj_property name="ElementShortName">q0_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q0_d0">
+               <obj_property name="ElementShortName">q0_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q0_we0">
+               <obj_property name="ElementShortName">q0_we0</obj_property>
+               <obj_property name="ObjectShortName">q0_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/q0_ce0">
+               <obj_property name="ElementShortName">q0_ce0</obj_property>
+               <obj_property name="ObjectShortName">q0_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/q0_address0">
+               <obj_property name="ElementShortName">q0_address0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">q0_address0[4:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group213">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group214">
+            <obj_property name="label">zetas(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_ntt_top/zetas_q1">
+               <obj_property name="ElementShortName">zetas_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">zetas_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/zetas_ce1">
+               <obj_property name="ElementShortName">zetas_ce1</obj_property>
+               <obj_property name="ObjectShortName">zetas_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/zetas_address1">
+               <obj_property name="ElementShortName">zetas_address1[7:0]</obj_property>
+               <obj_property name="ObjectShortName">zetas_address1[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/zetas_q0">
+               <obj_property name="ElementShortName">zetas_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">zetas_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_ntt_top/zetas_ce0">
+               <obj_property name="ElementShortName">zetas_ce0</obj_property>
+               <obj_property name="ObjectShortName">zetas_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_ntt_top/zetas_address0">
+               <obj_property name="ElementShortName">zetas_address0[7:0]</obj_property>
+               <obj_property name="ObjectShortName">zetas_address0[7:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

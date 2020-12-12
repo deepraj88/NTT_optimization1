@@ -1,0 +1,171 @@
+INFO: [HLS 200-10] Running '/opt/Xilinx2018/Vivado/2018.2/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'dss545' on host 'dark-knight.poly.edu' (Linux_x86_64 version 2.6.32-754.9.1.el6.x86_64) on Fri Dec 11 13:10:28 EST 2020
+INFO: [HLS 200-10] On os "CentOS release 6.10 (Final)"
+INFO: [HLS 200-10] In directory '/home/dss545/ntt_optimized'
+INFO: [HLS 200-10] Opening project '/home/dss545/ntt_optimized/ntt_check'.
+INFO: [HLS 200-10] Adding design file 'ntt.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'ntt_test.cpp' to the project
+INFO: [HLS 200-10] Opening solution '/home/dss545/ntt_optimized/ntt_check/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7a200tfbg676-2'
+INFO: [HLS 200-10] Analyzing design file 'ntt.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 450.578 ; gain = 0.133 ; free physical = 11301 ; free virtual = 471500
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 450.578 ; gain = 0.133 ; free physical = 11301 ; free virtual = 471500
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 450.578 ; gain = 0.133 ; free physical = 11298 ; free virtual = 471497
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 450.578 ; gain = 0.133 ; free physical = 11298 ; free virtual = 471496
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-1' (ntt.cpp:53) in function 'ntt' automatically.
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-2' (ntt.cpp:81) in function 'ntt' automatically.
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-3' (ntt.cpp:102) in function 'ntt' automatically.
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-4' (ntt.cpp:125) in function 'ntt' automatically.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1' (ntt.cpp:53) in function 'ntt' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-2' (ntt.cpp:81) in function 'ntt' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-3' (ntt.cpp:102) in function 'ntt' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-4' (ntt.cpp:125) in function 'ntt' completely.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 578.457 ; gain = 128.012 ; free physical = 11276 ; free virtual = 471474
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-5' (ntt.cpp:167:10) in function 'ntt' : 
+
+the outer loop is not a perfect loop.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-6' (ntt.cpp:208:10) in function 'ntt' : 
+
+the outer loop is not a perfect loop.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-7' (ntt.cpp:249:10) in function 'ntt' : 
+
+the outer loop is not a perfect loop.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-8' (ntt.cpp:290:11) in function 'ntt' : 
+
+the outer loop is not a perfect loop.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 578.457 ; gain = 128.012 ; free physical = 11272 ; free virtual = 471471
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'ntt' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'montgomery_reduce' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'montgomery_reduce'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 9.5 seconds; current allocated memory: 0.301 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.02 seconds; current allocated memory: 0.301 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'ntt' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 8.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 8.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 3'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 8.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 4'.
+WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('q0_load_5', ntt.cpp:149) on array 'q0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'q0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 3, Depth = 11.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 5.1'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:189) of variable 'tmp_219', ntt.cpp:189 on array 'q0' and 'load' operation ('q0_load_6', ntt.cpp:181) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:189) of variable 'tmp_219', ntt.cpp:189 on array 'q0' and 'load' operation ('q0_load_6', ntt.cpp:181) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:189) of variable 'tmp_219', ntt.cpp:189 on array 'q0' and 'load' operation ('q0_load_6', ntt.cpp:181) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:189) of variable 'tmp_219', ntt.cpp:189 on array 'q0' and 'load' operation ('q0_load_6', ntt.cpp:181) on array 'q0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 5, Depth = 5.
+WARNING: [SCHED 204-70] Cannot meet target clock period from 'mul' operation ('tmp_202') to 'call' operation ('t0') to 'montgomery_reduce' (combination delay: 15.5604 ns) to honor II or Latency constraint in region 'Loop 5.1'.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 6.1'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:230) of variable 'tmp_288', ntt.cpp:230 on array 'q0' and 'load' operation ('q0_load_9', ntt.cpp:222) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:230) of variable 'tmp_288', ntt.cpp:230 on array 'q0' and 'load' operation ('q0_load_9', ntt.cpp:222) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:230) of variable 'tmp_288', ntt.cpp:230 on array 'q0' and 'load' operation ('q0_load_9', ntt.cpp:222) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:230) of variable 'tmp_288', ntt.cpp:230 on array 'q0' and 'load' operation ('q0_load_9', ntt.cpp:222) on array 'q0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 5, Depth = 5.
+WARNING: [SCHED 204-70] Cannot meet target clock period from 'mul' operation ('tmp_271') to 'call' operation ('t0') to 'montgomery_reduce' (combination delay: 15.5604 ns) to honor II or Latency constraint in region 'Loop 6.1'.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 7.1'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:271) of variable 'tmp_333', ntt.cpp:271 on array 'q0' and 'load' operation ('q0_load_12', ntt.cpp:263) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:271) of variable 'tmp_333', ntt.cpp:271 on array 'q0' and 'load' operation ('q0_load_12', ntt.cpp:263) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:271) of variable 'tmp_333', ntt.cpp:271 on array 'q0' and 'load' operation ('q0_load_12', ntt.cpp:263) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:271) of variable 'tmp_333', ntt.cpp:271 on array 'q0' and 'load' operation ('q0_load_12', ntt.cpp:263) on array 'q0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 5, Depth = 5.
+WARNING: [SCHED 204-70] Cannot meet target clock period from 'mul' operation ('tmp_316') to 'call' operation ('t0') to 'montgomery_reduce' (combination delay: 15.5604 ns) to honor II or Latency constraint in region 'Loop 7.1'.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 8.1'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:312) of variable 'tmp_376', ntt.cpp:312 on array 'q0' and 'load' operation ('q0_load_15', ntt.cpp:304) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:312) of variable 'tmp_376', ntt.cpp:312 on array 'q0' and 'load' operation ('q0_load_15', ntt.cpp:304) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:312) of variable 'tmp_376', ntt.cpp:312 on array 'q0' and 'load' operation ('q0_load_15', ntt.cpp:304) on array 'q0'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1)
+   between 'store' operation (ntt.cpp:312) of variable 'tmp_376', ntt.cpp:312 on array 'q0' and 'load' operation ('q0_load_15', ntt.cpp:304) on array 'q0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 5, Depth = 5.
+WARNING: [SCHED 204-70] Cannot meet target clock period from 'mul' operation ('tmp_359') to 'call' operation ('t0') to 'montgomery_reduce' (combination delay: 15.5604 ns) to honor II or Latency constraint in region 'Loop 8.1'.
+WARNING: [SCHED 204-21] Estimated clock period (18.3324ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns).
+WARNING: [SCHED 204-21] The critical path consists of the following:
+	'load' operation ('q0_load_6', ntt.cpp:181) on array 'q0' (2.77 ns)
+	'mul' operation ('tmp_202', ntt.cpp:181) (6.88 ns)
+	'call' operation ('t0', ntt.cpp:181) to 'montgomery_reduce' (8.68 ns)
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 1.55 seconds; current allocated memory: 0.301 MB.
+WARNING: [HLS 200-433] Loop  + Loop 5.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 6.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 7.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 8.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+INFO: [HLS 200-434] Only 8 loops out of a total 12 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 1.27 seconds; current allocated memory: 0.301 MB.
+WARNING: [HLS 200-433] Loop  + Loop 5.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 6.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 7.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 8.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'montgomery_reduce' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'montgomery_reduce'.
+INFO: [HLS 200-111]  Elapsed time: 1.12 seconds; current allocated memory: 0.301 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'ntt' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'ntt/q0' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'ntt/q1' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'ntt/q2' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'ntt/q3' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'ntt/q4' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'ntt/q5' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'ntt/q6' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'ntt/q7' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'ntt/zetas' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'ntt' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'ntt'.
+INFO: [HLS 200-111]  Elapsed time: 0.31 seconds; current allocated memory: 0.301 MB.
+WARNING: [HLS 200-433] Loop  + Loop 5.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 6.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 7.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 8.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 5.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 6.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 7.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 8.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 5.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 6.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 7.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+WARNING: [HLS 200-433] Loop  + Loop 8.1 has an initiation interval that is equal to the pipeline depth (5) - this results in an unpipelined loop.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 578.457 ; gain = 128.012 ; free physical = 11225 ; free virtual = 471437
+INFO: [SYSC 207-301] Generating SystemC RTL for ntt.
+INFO: [VHDL 208-304] Generating VHDL RTL for ntt.
+INFO: [VLOG 209-307] Generating Verilog RTL for ntt.
+INFO: [HLS 200-112] Total elapsed time: 17.97 seconds; peak allocated memory: 0.301 MB.

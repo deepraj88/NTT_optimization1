@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Dec 11 12:16:37 2020
+# Process ID: 16176
+# Current directory: /home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog
+# Command line: vivado -source open_wave.tcl
+# Log file: /home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/vivado.log
+# Journal file: /home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source open_wave.tcl
+open_wave_config /home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/ntt.wcfg
+close_sim

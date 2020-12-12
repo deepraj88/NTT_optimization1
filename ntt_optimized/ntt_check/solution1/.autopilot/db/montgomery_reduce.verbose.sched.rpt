@@ -1,0 +1,136 @@
+
+
+================================================================
+== Vivado HLS Report for 'montgomery_reduce'
+================================================================
+* Date:           Fri Dec 11 13:10:38 2020
+
+* Version:        2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)
+* Project:        ntt_check
+* Solution:       solution1
+* Product family: artix7
+* Target device:  xc7a200tfbg676-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     6.880|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+----------+
+    |  Latency  |  Interval | Pipeline |
+    | min | max | min | max |   Type   |
+    +-----+-----+-----+-----+----------+
+    |    2|    2|    1|    1| function |
+    +-----+-----+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 1
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 3
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 3, States = { 1 2 3 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / true
+3 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 6.88>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%a_read = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %a) nounwind"   --->   Operation 4 'read' 'a_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%tmp_403 = trunc i64 %a_read to i32" [ntt.cpp:37]   --->   Operation 5 'trunc' 'tmp_403' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (6.88ns)   --->   "%t = mul i32 -58728449, %tmp_403" [ntt.cpp:37]   --->   Operation 6 'mul' 't' <Predicate = true> <Delay = 6.88> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 6.88> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+
+State 2 <SV = 1> <Delay = 6.88>
+ST_2 : Operation 7 [1/1] (0.00ns)   --->   "%t_1_cast = zext i32 %t to i55" [ntt.cpp:38]   --->   Operation 7 'zext' 't_1_cast' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 8 [1/1] (6.88ns)   --->   "%t_1 = mul i55 8380417, %t_1_cast" [ntt.cpp:39]   --->   Operation 8 'mul' 't_1' <Predicate = true> <Delay = 6.88> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 6.88> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+
+State 3 <SV = 2> <Delay = 2.99>
+ST_3 : Operation 9 [1/1] (0.00ns)   --->   "%t_2_cast = zext i55 %t_1 to i64" [ntt.cpp:39]   --->   Operation 9 'zext' 't_2_cast' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 10 [1/1] (2.99ns)   --->   "%t_2 = add i64 %a_read, %t_2_cast" [ntt.cpp:40]   --->   Operation 10 'add' 't_2' <Predicate = true> <Delay = 2.99> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 11 [1/1] (0.00ns)   --->   "%tmp = call i32 @_ssdm_op_PartSelect.i32.i64.i32.i32(i64 %t_2, i32 32, i32 63)" [ntt.cpp:42]   --->   Operation 11 'partselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 12 [1/1] (0.00ns)   --->   "ret i32 %tmp" [ntt.cpp:42]   --->   Operation 12 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 6.88ns
+The critical path consists of the following:
+	wire read on port 'a' [2]  (0 ns)
+	'mul' operation ('t', ntt.cpp:37) [4]  (6.88 ns)
+
+ <State 2>: 6.88ns
+The critical path consists of the following:
+	'mul' operation ('t', ntt.cpp:39) [6]  (6.88 ns)
+
+ <State 3>: 3ns
+The critical path consists of the following:
+	'add' operation ('t', ntt.cpp:40) [8]  (3 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

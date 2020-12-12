@@ -1,0 +1,50 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/opt/Xilinx2018/Vivado/2018.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx2018/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_ntt_top glbl -prj ntt.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile /opt/Xilinx2018/Vivado/2018.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s ntt -debug wave 
+Multi-threading is on. Using 38 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/ntt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ntt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/montgomery_reduce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module montgomery_reduce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q5
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_zetas.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_zetas
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q7
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/ntt.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_ntt_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q2
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.montgomery_reduce
+Compiling module xil_defaultlib.ntt
+Compiling module xil_defaultlib.AESL_automem_q0
+Compiling module xil_defaultlib.AESL_automem_q1
+Compiling module xil_defaultlib.AESL_automem_q2
+Compiling module xil_defaultlib.AESL_automem_q3
+Compiling module xil_defaultlib.AESL_automem_q4
+Compiling module xil_defaultlib.AESL_automem_q5
+Compiling module xil_defaultlib.AESL_automem_q6
+Compiling module xil_defaultlib.AESL_automem_q7
+Compiling module xil_defaultlib.AESL_automem_zetas
+Compiling module xil_defaultlib.apatb_ntt_top
+Compiling module work.glbl
+Built simulation snapshot ntt

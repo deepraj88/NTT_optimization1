@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName ntt.cpp_pre.cpp.tb.cpp

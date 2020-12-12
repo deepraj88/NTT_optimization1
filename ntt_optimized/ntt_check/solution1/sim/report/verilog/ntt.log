@@ -1,0 +1,320 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "/opt/Xilinx2018/Vivado/2018.2/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling apatb_ntt.cpp
+   Compiling ntt.cpp_pre.cpp.tb.cpp
+   Compiling ntt_test.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+INFO: [COSIM-333] Generating C post check test bench ...
+INFO: [COSIM-12] Generating RTL test bench ...
+INFO: [COSIM-323] Starting verilog simulation. 
+INFO: [COSIM-15] Starting XSIM ...
+INFO: [COSIM-316] Starting C post checking ...
+Total iteration = 1024
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/opt/Xilinx2018/Vivado/2018.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx2018/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_ntt_top glbl -prj ntt.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile /opt/Xilinx2018/Vivado/2018.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s ntt -debug wave 
+Multi-threading is on. Using 38 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/ntt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ntt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/montgomery_reduce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module montgomery_reduce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q5
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_zetas.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_zetas
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q7
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/ntt.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_ntt_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/AESL_automem_q2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_q2
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.montgomery_reduce
+Compiling module xil_defaultlib.ntt
+Compiling module xil_defaultlib.AESL_automem_q0
+Compiling module xil_defaultlib.AESL_automem_q1
+Compiling module xil_defaultlib.AESL_automem_q2
+Compiling module xil_defaultlib.AESL_automem_q3
+Compiling module xil_defaultlib.AESL_automem_q4
+Compiling module xil_defaultlib.AESL_automem_q5
+Compiling module xil_defaultlib.AESL_automem_q6
+Compiling module xil_defaultlib.AESL_automem_q7
+Compiling module xil_defaultlib.AESL_automem_zetas
+Compiling module xil_defaultlib.apatb_ntt_top
+Compiling module work.glbl
+Built simulation snapshot ntt
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/xsim.dir/ntt/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 11 12:16:03 2020...
+
+****** xsim v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/ntt/xsim_script.tcl
+# xsim {ntt} -autoloadwcfg -tclbatch {ntt.tcl}
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source ntt.tcl
+## log_wave -r /
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set cinoutgroup [add_wave_group "C InOuts" -into $designtopgroup]
+## set q7_group [add_wave_group q7(memory) -into $cinoutgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q7_q1 -into $q7_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q7_d1 -into $q7_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q7_we1 -into $q7_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q7_ce1 -into $q7_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q7_address1 -into $q7_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q7_q0 -into $q7_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q7_d0 -into $q7_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q7_we0 -into $q7_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q7_ce0 -into $q7_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q7_address0 -into $q7_group -radix hex
+## set q6_group [add_wave_group q6(memory) -into $cinoutgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q6_q1 -into $q6_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q6_d1 -into $q6_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q6_we1 -into $q6_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q6_ce1 -into $q6_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q6_address1 -into $q6_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q6_q0 -into $q6_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q6_d0 -into $q6_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q6_we0 -into $q6_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q6_ce0 -into $q6_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q6_address0 -into $q6_group -radix hex
+## set q5_group [add_wave_group q5(memory) -into $cinoutgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q5_q1 -into $q5_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q5_d1 -into $q5_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q5_we1 -into $q5_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q5_ce1 -into $q5_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q5_address1 -into $q5_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q5_q0 -into $q5_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q5_d0 -into $q5_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q5_we0 -into $q5_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q5_ce0 -into $q5_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q5_address0 -into $q5_group -radix hex
+## set q4_group [add_wave_group q4(memory) -into $cinoutgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q4_q1 -into $q4_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q4_d1 -into $q4_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q4_we1 -into $q4_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q4_ce1 -into $q4_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q4_address1 -into $q4_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q4_q0 -into $q4_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q4_d0 -into $q4_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q4_we0 -into $q4_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q4_ce0 -into $q4_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q4_address0 -into $q4_group -radix hex
+## set q3_group [add_wave_group q3(memory) -into $cinoutgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q3_q1 -into $q3_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q3_d1 -into $q3_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q3_we1 -into $q3_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q3_ce1 -into $q3_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q3_address1 -into $q3_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q3_q0 -into $q3_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q3_d0 -into $q3_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q3_we0 -into $q3_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q3_ce0 -into $q3_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q3_address0 -into $q3_group -radix hex
+## set q2_group [add_wave_group q2(memory) -into $cinoutgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q2_q1 -into $q2_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q2_d1 -into $q2_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q2_we1 -into $q2_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q2_ce1 -into $q2_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q2_address1 -into $q2_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q2_q0 -into $q2_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q2_d0 -into $q2_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q2_we0 -into $q2_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q2_ce0 -into $q2_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q2_address0 -into $q2_group -radix hex
+## set q1_group [add_wave_group q1(memory) -into $cinoutgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q1_q1 -into $q1_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q1_d1 -into $q1_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q1_we1 -into $q1_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q1_ce1 -into $q1_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q1_address1 -into $q1_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q1_q0 -into $q1_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q1_d0 -into $q1_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q1_we0 -into $q1_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q1_ce0 -into $q1_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q1_address0 -into $q1_group -radix hex
+## set q0_group [add_wave_group q0(memory) -into $cinoutgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q0_q1 -into $q0_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q0_d1 -into $q0_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q0_we1 -into $q0_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q0_ce1 -into $q0_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q0_address1 -into $q0_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q0_q0 -into $q0_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q0_d0 -into $q0_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q0_we0 -into $q0_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q0_ce0 -into $q0_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/q0_address0 -into $q0_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set zetas_group [add_wave_group zetas(memory) -into $cinputgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/zetas_q1 -into $zetas_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/zetas_ce1 -into $zetas_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/zetas_address1 -into $zetas_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/zetas_q0 -into $zetas_group -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/zetas_ce0 -into $zetas_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/AESL_inst_ntt/zetas_address0 -into $zetas_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/ap_start -into $blocksiggroup
+## add_wave /apatb_ntt_top/AESL_inst_ntt/ap_done -into $blocksiggroup
+## add_wave /apatb_ntt_top/AESL_inst_ntt/ap_idle -into $blocksiggroup
+## add_wave /apatb_ntt_top/AESL_inst_ntt/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_ntt_top/AESL_inst_ntt/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_ntt_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_ntt_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_ntt_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_ntt_top/LENGTH_q0 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_ntt_top/LENGTH_q1 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_ntt_top/LENGTH_q2 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_ntt_top/LENGTH_q3 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_ntt_top/LENGTH_q4 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_ntt_top/LENGTH_q5 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_ntt_top/LENGTH_q6 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_ntt_top/LENGTH_q7 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_ntt_top/LENGTH_zetas -into $tb_portdepth_group -radix hex
+## set tbcinoutgroup [add_wave_group "C InOuts" -into $testbenchgroup]
+## set tb_q7_group [add_wave_group q7(memory) -into $tbcinoutgroup]
+## add_wave /apatb_ntt_top/q7_q1 -into $tb_q7_group -radix hex
+## add_wave /apatb_ntt_top/q7_d1 -into $tb_q7_group -radix hex
+## add_wave /apatb_ntt_top/q7_we1 -into $tb_q7_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q7_ce1 -into $tb_q7_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q7_address1 -into $tb_q7_group -radix hex
+## add_wave /apatb_ntt_top/q7_q0 -into $tb_q7_group -radix hex
+## add_wave /apatb_ntt_top/q7_d0 -into $tb_q7_group -radix hex
+## add_wave /apatb_ntt_top/q7_we0 -into $tb_q7_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q7_ce0 -into $tb_q7_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q7_address0 -into $tb_q7_group -radix hex
+## set tb_q6_group [add_wave_group q6(memory) -into $tbcinoutgroup]
+## add_wave /apatb_ntt_top/q6_q1 -into $tb_q6_group -radix hex
+## add_wave /apatb_ntt_top/q6_d1 -into $tb_q6_group -radix hex
+## add_wave /apatb_ntt_top/q6_we1 -into $tb_q6_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q6_ce1 -into $tb_q6_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q6_address1 -into $tb_q6_group -radix hex
+## add_wave /apatb_ntt_top/q6_q0 -into $tb_q6_group -radix hex
+## add_wave /apatb_ntt_top/q6_d0 -into $tb_q6_group -radix hex
+## add_wave /apatb_ntt_top/q6_we0 -into $tb_q6_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q6_ce0 -into $tb_q6_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q6_address0 -into $tb_q6_group -radix hex
+## set tb_q5_group [add_wave_group q5(memory) -into $tbcinoutgroup]
+## add_wave /apatb_ntt_top/q5_q1 -into $tb_q5_group -radix hex
+## add_wave /apatb_ntt_top/q5_d1 -into $tb_q5_group -radix hex
+## add_wave /apatb_ntt_top/q5_we1 -into $tb_q5_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q5_ce1 -into $tb_q5_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q5_address1 -into $tb_q5_group -radix hex
+## add_wave /apatb_ntt_top/q5_q0 -into $tb_q5_group -radix hex
+## add_wave /apatb_ntt_top/q5_d0 -into $tb_q5_group -radix hex
+## add_wave /apatb_ntt_top/q5_we0 -into $tb_q5_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q5_ce0 -into $tb_q5_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q5_address0 -into $tb_q5_group -radix hex
+## set tb_q4_group [add_wave_group q4(memory) -into $tbcinoutgroup]
+## add_wave /apatb_ntt_top/q4_q1 -into $tb_q4_group -radix hex
+## add_wave /apatb_ntt_top/q4_d1 -into $tb_q4_group -radix hex
+## add_wave /apatb_ntt_top/q4_we1 -into $tb_q4_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q4_ce1 -into $tb_q4_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q4_address1 -into $tb_q4_group -radix hex
+## add_wave /apatb_ntt_top/q4_q0 -into $tb_q4_group -radix hex
+## add_wave /apatb_ntt_top/q4_d0 -into $tb_q4_group -radix hex
+## add_wave /apatb_ntt_top/q4_we0 -into $tb_q4_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q4_ce0 -into $tb_q4_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q4_address0 -into $tb_q4_group -radix hex
+## set tb_q3_group [add_wave_group q3(memory) -into $tbcinoutgroup]
+## add_wave /apatb_ntt_top/q3_q1 -into $tb_q3_group -radix hex
+## add_wave /apatb_ntt_top/q3_d1 -into $tb_q3_group -radix hex
+## add_wave /apatb_ntt_top/q3_we1 -into $tb_q3_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q3_ce1 -into $tb_q3_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q3_address1 -into $tb_q3_group -radix hex
+## add_wave /apatb_ntt_top/q3_q0 -into $tb_q3_group -radix hex
+## add_wave /apatb_ntt_top/q3_d0 -into $tb_q3_group -radix hex
+## add_wave /apatb_ntt_top/q3_we0 -into $tb_q3_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q3_ce0 -into $tb_q3_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q3_address0 -into $tb_q3_group -radix hex
+## set tb_q2_group [add_wave_group q2(memory) -into $tbcinoutgroup]
+## add_wave /apatb_ntt_top/q2_q1 -into $tb_q2_group -radix hex
+## add_wave /apatb_ntt_top/q2_d1 -into $tb_q2_group -radix hex
+## add_wave /apatb_ntt_top/q2_we1 -into $tb_q2_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q2_ce1 -into $tb_q2_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q2_address1 -into $tb_q2_group -radix hex
+## add_wave /apatb_ntt_top/q2_q0 -into $tb_q2_group -radix hex
+## add_wave /apatb_ntt_top/q2_d0 -into $tb_q2_group -radix hex
+## add_wave /apatb_ntt_top/q2_we0 -into $tb_q2_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q2_ce0 -into $tb_q2_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q2_address0 -into $tb_q2_group -radix hex
+## set tb_q1_group [add_wave_group q1(memory) -into $tbcinoutgroup]
+## add_wave /apatb_ntt_top/q1_q1 -into $tb_q1_group -radix hex
+## add_wave /apatb_ntt_top/q1_d1 -into $tb_q1_group -radix hex
+## add_wave /apatb_ntt_top/q1_we1 -into $tb_q1_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q1_ce1 -into $tb_q1_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q1_address1 -into $tb_q1_group -radix hex
+## add_wave /apatb_ntt_top/q1_q0 -into $tb_q1_group -radix hex
+## add_wave /apatb_ntt_top/q1_d0 -into $tb_q1_group -radix hex
+## add_wave /apatb_ntt_top/q1_we0 -into $tb_q1_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q1_ce0 -into $tb_q1_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q1_address0 -into $tb_q1_group -radix hex
+## set tb_q0_group [add_wave_group q0(memory) -into $tbcinoutgroup]
+## add_wave /apatb_ntt_top/q0_q1 -into $tb_q0_group -radix hex
+## add_wave /apatb_ntt_top/q0_d1 -into $tb_q0_group -radix hex
+## add_wave /apatb_ntt_top/q0_we1 -into $tb_q0_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q0_ce1 -into $tb_q0_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q0_address1 -into $tb_q0_group -radix hex
+## add_wave /apatb_ntt_top/q0_q0 -into $tb_q0_group -radix hex
+## add_wave /apatb_ntt_top/q0_d0 -into $tb_q0_group -radix hex
+## add_wave /apatb_ntt_top/q0_we0 -into $tb_q0_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q0_ce0 -into $tb_q0_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/q0_address0 -into $tb_q0_group -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_zetas_group [add_wave_group zetas(memory) -into $tbcinputgroup]
+## add_wave /apatb_ntt_top/zetas_q1 -into $tb_zetas_group -radix hex
+## add_wave /apatb_ntt_top/zetas_ce1 -into $tb_zetas_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/zetas_address1 -into $tb_zetas_group -radix hex
+## add_wave /apatb_ntt_top/zetas_q0 -into $tb_zetas_group -radix hex
+## add_wave /apatb_ntt_top/zetas_ce0 -into $tb_zetas_group -color #ffff00 -radix hex
+## add_wave /apatb_ntt_top/zetas_address0 -into $tb_zetas_group -radix hex
+## save_wave_config ntt.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "7335000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 7375 ns : File "/home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/ntt.autotb.v" Line 783
+## quit
+INFO: [Common 17-206] Exiting xsim at Fri Dec 11 12:16:17 2020...
+INFO: [COSIM-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.

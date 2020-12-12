@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Dec 11 12:16:37 2020
+# Process ID: 16176
+# Current directory: /home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog
+# Command line: vivado -source open_wave.tcl
+# Log file: /home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/vivado.log
+# Journal file: /home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source open_wave.tcl
+# current_fileset
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx2018/Vivado/2018.2/data/ip'.
+current_fileset: Time (s): cpu = 00:00:33 ; elapsed = 00:00:07 . Memory (MB): peak = 6354.781 ; gain = 143.070 ; free physical = 11721 ; free virtual = 471927
+# open_wave_database ntt.wdb
+open_wave_config /home/dss545/ntt_optimized/ntt_check/solution1/sim/verilog/ntt.wcfg
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 11 12:19:02 2020...
