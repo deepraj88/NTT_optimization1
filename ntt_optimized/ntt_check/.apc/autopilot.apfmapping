@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="ntt.cpp" path="/home/dss545/ntt_optimized/ntt.cpp"/>
+    <originFiles name="ntt.cpp" path="/home/dss545/vivado_hls/SHARING/CRYSTALS-Dilithium/Dilithium/Reference_Implementation/crypto_sign/project19/ntt_optimized/ntt.cpp"/>
   </source>
   <testbench>
-    <originFiles name="ntt_test.cpp" path="/home/dss545/ntt_optimized/ntt_test.cpp"/>
+    <originFiles name="ntt_test.cpp" path="/home/dss545/vivado_hls/SHARING/CRYSTALS-Dilithium/Dilithium/Reference_Implementation/crypto_sign/project19/ntt_optimized/ntt_test.cpp"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

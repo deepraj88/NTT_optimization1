@@ -2,6 +2,8 @@
 
 ### NTT Results
 
+* Vivado HLS solution at ./dilithium1.prj and ./ntt_optimized/ntt_check
+
 | Optimization | BRAM | DSP | FF | LUT | Clock Period | Latency |
 |--------------|--------------|--------------|--------------|--------------|--------------|--------------|
 | Unoptimized | 1 | 8 | 516 | 659 | 7.724 | 9998 |
@@ -12,7 +14,7 @@
 | Micro-architecture | 1 | 2 | 495 | 845 | 8.363 | 8971 |
 | Unroll+Pipe+Micro | 1 | 16 | 3132 | 6076 | 8.363 | 6917 |
 | Unroll+Pipe+Micro+Parition | 2 | 16 | 3577 | 7529 | 8.363 | 8069 |
-
+| C-code change + pipeline | 0 | 204 | 11310 | 8920 | 18.332 | 719 |
 
 ### Publication
 
