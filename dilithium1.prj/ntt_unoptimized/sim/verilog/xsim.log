@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# xsim v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Dec 12 08:34:04 2020
+# Process ID: 124600
+# Current directory: /home/dss545/vivado_hls/SHARING/CRYSTALS-Dilithium/Dilithium/Reference_Implementation/crypto_sign/project19/dilithium1.prj/ntt_unoptimized/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/ntt/xsim_script.tcl}
+# Log file: /home/dss545/vivado_hls/SHARING/CRYSTALS-Dilithium/Dilithium/Reference_Implementation/crypto_sign/project19/dilithium1.prj/ntt_unoptimized/sim/verilog/xsim.log
+# Journal file: /home/dss545/vivado_hls/SHARING/CRYSTALS-Dilithium/Dilithium/Reference_Implementation/crypto_sign/project19/dilithium1.prj/ntt_unoptimized/sim/verilog/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/ntt/xsim_script.tcl
+# xsim {ntt} -autoloadwcfg -tclbatch {ntt.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ntt.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 28 [n/a] @ "125000"
+// RTL Simulation : 1 / 28 [n/a] @ "100125000"
+// RTL Simulation : 2 / 28 [n/a] @ "200115000"
+// RTL Simulation : 3 / 28 [n/a] @ "300105000"
+// RTL Simulation : 4 / 28 [n/a] @ "400095000"
+// RTL Simulation : 5 / 28 [n/a] @ "500085000"
+// RTL Simulation : 6 / 28 [n/a] @ "600075000"
+// RTL Simulation : 7 / 28 [n/a] @ "700065000"
+// RTL Simulation : 8 / 28 [n/a] @ "800055000"
+// RTL Simulation : 9 / 28 [n/a] @ "900045000"
+// RTL Simulation : 10 / 28 [n/a] @ "1000035000"
+// RTL Simulation : 11 / 28 [n/a] @ "1100025000"
+// RTL Simulation : 12 / 28 [n/a] @ "1200015000"
+// RTL Simulation : 13 / 28 [n/a] @ "1300005000"
+// RTL Simulation : 14 / 28 [n/a] @ "1399995000"
+// RTL Simulation : 15 / 28 [n/a] @ "1499985000"
+// RTL Simulation : 16 / 28 [n/a] @ "1599975000"
+// RTL Simulation : 17 / 28 [n/a] @ "1699965000"
+// RTL Simulation : 18 / 28 [n/a] @ "1799955000"
+// RTL Simulation : 19 / 28 [n/a] @ "1899945000"
+// RTL Simulation : 20 / 28 [n/a] @ "1999935000"
+// RTL Simulation : 21 / 28 [n/a] @ "2099925000"
+// RTL Simulation : 22 / 28 [n/a] @ "2199915000"
+// RTL Simulation : 23 / 28 [n/a] @ "2299905000"
+// RTL Simulation : 24 / 28 [n/a] @ "2399895000"
+// RTL Simulation : 25 / 28 [n/a] @ "2499885000"
+// RTL Simulation : 26 / 28 [n/a] @ "2599875000"
+// RTL Simulation : 27 / 28 [n/a] @ "2699865000"
+// RTL Simulation : 28 / 28 [n/a] @ "2799855000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 2799895 ns : File "/home/dss545/vivado_hls/SHARING/CRYSTALS-Dilithium/Dilithium/Reference_Implementation/crypto_sign/project19/dilithium1.prj/ntt_unoptimized/sim/verilog/ntt.autotb.v" Line 220
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Dec 12 08:34:16 2020...

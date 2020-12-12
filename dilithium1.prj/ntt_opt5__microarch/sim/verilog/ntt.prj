@@ -1,0 +1,6 @@
+sv work "glbl.v"
+sv xil_defaultlib "ntt.autotb.v"
+sv xil_defaultlib "AESL_automem_p.v"
+sv xil_defaultlib "ntt.v"
+sv xil_defaultlib "ntt_zetas.v"
+

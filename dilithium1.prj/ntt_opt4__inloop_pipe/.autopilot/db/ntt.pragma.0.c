@@ -1,0 +1,380 @@
+# 1 "ntt.c"
+# 1 "ntt.c" 1
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 149 "<built-in>" 3
+# 1 "<command line>" 1
+
+
+
+
+
+# 1 "/opt/Xilinx2018/Vivado/2018.3/common/technology/autopilot/etc/autopilot_ssdm_op.h" 1
+# 300 "/opt/Xilinx2018/Vivado/2018.3/common/technology/autopilot/etc/autopilot_ssdm_op.h"
+    void _ssdm_op_IfRead() __attribute__ ((nothrow));
+    void _ssdm_op_IfWrite() __attribute__ ((nothrow));
+    unsigned int __attribute__ ((bitwidth(1))) _ssdm_op_IfNbRead() __attribute__ ((nothrow));
+    unsigned int __attribute__ ((bitwidth(1))) _ssdm_op_IfNbWrite() __attribute__ ((nothrow));
+    unsigned int __attribute__ ((bitwidth(1))) _ssdm_op_IfCanRead() __attribute__ ((nothrow));
+    unsigned int __attribute__ ((bitwidth(1))) _ssdm_op_IfCanWrite() __attribute__ ((nothrow));
+
+
+    void _ssdm_StreamRead() __attribute__ ((nothrow));
+    void _ssdm_StreamWrite() __attribute__ ((nothrow));
+    unsigned int __attribute__ ((bitwidth(1))) _ssdm_StreamNbRead() __attribute__ ((nothrow));
+    unsigned int __attribute__ ((bitwidth(1))) _ssdm_StreamNbWrite() __attribute__ ((nothrow));
+    unsigned int __attribute__ ((bitwidth(1))) _ssdm_StreamCanRead() __attribute__ ((nothrow));
+    unsigned int __attribute__ ((bitwidth(1))) _ssdm_StreamCanWrite() __attribute__ ((nothrow));
+
+
+
+
+    void _ssdm_op_MemShiftRead() __attribute__ ((nothrow));
+
+    void _ssdm_op_Wait() __attribute__ ((nothrow));
+    void _ssdm_op_Poll() __attribute__ ((nothrow));
+
+    void _ssdm_op_Return() __attribute__ ((nothrow));
+
+
+    void _ssdm_op_SpecSynModule() __attribute__ ((nothrow));
+    void _ssdm_op_SpecTopModule() __attribute__ ((nothrow));
+    void _ssdm_op_SpecProcessDecl() __attribute__ ((nothrow));
+    void _ssdm_op_SpecProcessDef() __attribute__ ((nothrow));
+    void _ssdm_op_SpecPort() __attribute__ ((nothrow));
+    void _ssdm_op_SpecConnection() __attribute__ ((nothrow));
+    void _ssdm_op_SpecChannel() __attribute__ ((nothrow));
+    void _ssdm_op_SpecSensitive() __attribute__ ((nothrow));
+    void _ssdm_op_SpecModuleInst() __attribute__ ((nothrow));
+    void _ssdm_op_SpecPortMap() __attribute__ ((nothrow));
+
+    void _ssdm_op_SpecReset() __attribute__ ((nothrow));
+
+    void _ssdm_op_SpecPlatform() __attribute__ ((nothrow));
+    void _ssdm_op_SpecClockDomain() __attribute__ ((nothrow));
+    void _ssdm_op_SpecPowerDomain() __attribute__ ((nothrow));
+
+    int _ssdm_op_SpecRegionBegin() __attribute__ ((nothrow));
+    int _ssdm_op_SpecRegionEnd() __attribute__ ((nothrow));
+
+    void _ssdm_op_SpecLoopName() __attribute__ ((nothrow));
+
+    void _ssdm_op_SpecLoopTripCount() __attribute__ ((nothrow));
+
+    int _ssdm_op_SpecStateBegin() __attribute__ ((nothrow));
+    int _ssdm_op_SpecStateEnd() __attribute__ ((nothrow));
+
+    void _ssdm_op_SpecInterface() __attribute__ ((nothrow));
+
+    void _ssdm_op_SpecPipeline() __attribute__ ((nothrow));
+    void _ssdm_op_SpecDataflowPipeline() __attribute__ ((nothrow));
+
+
+    void _ssdm_op_SpecLatency() __attribute__ ((nothrow));
+    void _ssdm_op_SpecParallel() __attribute__ ((nothrow));
+    void _ssdm_op_SpecProtocol() __attribute__ ((nothrow));
+    void _ssdm_op_SpecOccurrence() __attribute__ ((nothrow));
+
+    void _ssdm_op_SpecResource() __attribute__ ((nothrow));
+    void _ssdm_op_SpecResourceLimit() __attribute__ ((nothrow));
+    void _ssdm_op_SpecCHCore() __attribute__ ((nothrow));
+    void _ssdm_op_SpecFUCore() __attribute__ ((nothrow));
+    void _ssdm_op_SpecIFCore() __attribute__ ((nothrow));
+    void _ssdm_op_SpecIPCore() __attribute__ ((nothrow));
+    void _ssdm_op_SpecKeepValue() __attribute__ ((nothrow));
+    void _ssdm_op_SpecMemCore() __attribute__ ((nothrow));
+
+    void _ssdm_op_SpecExt() __attribute__ ((nothrow));
+
+
+
+
+    void _ssdm_SpecArrayDimSize() __attribute__ ((nothrow));
+
+    void _ssdm_RegionBegin() __attribute__ ((nothrow));
+    void _ssdm_RegionEnd() __attribute__ ((nothrow));
+
+    void _ssdm_Unroll() __attribute__ ((nothrow));
+    void _ssdm_UnrollRegion() __attribute__ ((nothrow));
+
+    void _ssdm_InlineAll() __attribute__ ((nothrow));
+    void _ssdm_InlineLoop() __attribute__ ((nothrow));
+    void _ssdm_Inline() __attribute__ ((nothrow));
+    void _ssdm_InlineSelf() __attribute__ ((nothrow));
+    void _ssdm_InlineRegion() __attribute__ ((nothrow));
+
+    void _ssdm_SpecArrayMap() __attribute__ ((nothrow));
+    void _ssdm_SpecArrayPartition() __attribute__ ((nothrow));
+    void _ssdm_SpecArrayReshape() __attribute__ ((nothrow));
+
+    void _ssdm_SpecStream() __attribute__ ((nothrow));
+
+    void _ssdm_SpecExpr() __attribute__ ((nothrow));
+    void _ssdm_SpecExprBalance() __attribute__ ((nothrow));
+
+    void _ssdm_SpecDependence() __attribute__ ((nothrow));
+
+    void _ssdm_SpecLoopMerge() __attribute__ ((nothrow));
+    void _ssdm_SpecLoopFlatten() __attribute__ ((nothrow));
+    void _ssdm_SpecLoopRewind() __attribute__ ((nothrow));
+
+    void _ssdm_SpecFuncInstantiation() __attribute__ ((nothrow));
+    void _ssdm_SpecFuncBuffer() __attribute__ ((nothrow));
+    void _ssdm_SpecFuncExtract() __attribute__ ((nothrow));
+    void _ssdm_SpecConstant() __attribute__ ((nothrow));
+
+    void _ssdm_DataPack() __attribute__ ((nothrow));
+    void _ssdm_SpecDataPack() __attribute__ ((nothrow));
+
+    void _ssdm_op_SpecBitsMap() __attribute__ ((nothrow));
+    void _ssdm_op_SpecLicense() __attribute__ ((nothrow));
+# 7 "<command line>" 2
+# 1 "<built-in>" 2
+# 1 "ntt.c" 2
+# 1 "/opt/Xilinx2018/Vivado/2018.3/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdint.h" 1 3
+# 33 "/opt/Xilinx2018/Vivado/2018.3/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdint.h" 3
+# 1 "/usr/include/stdint.h" 1 3 4
+# 25 "/usr/include/stdint.h" 3 4
+# 1 "/usr/include/features.h" 1 3 4
+# 345 "/usr/include/features.h" 3 4
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 346 "/usr/include/features.h" 2 3 4
+# 375 "/usr/include/features.h" 3 4
+# 1 "/usr/include/sys/cdefs.h" 1 3 4
+# 392 "/usr/include/sys/cdefs.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 393 "/usr/include/sys/cdefs.h" 2 3 4
+# 376 "/usr/include/features.h" 2 3 4
+# 399 "/usr/include/features.h" 3 4
+# 1 "/usr/include/gnu/stubs.h" 1 3 4
+# 10 "/usr/include/gnu/stubs.h" 3 4
+# 1 "/usr/include/gnu/stubs-64.h" 1 3 4
+# 11 "/usr/include/gnu/stubs.h" 2 3 4
+# 400 "/usr/include/features.h" 2 3 4
+# 26 "/usr/include/stdint.h" 2 3 4
+# 1 "/usr/include/bits/wchar.h" 1 3 4
+# 22 "/usr/include/bits/wchar.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 23 "/usr/include/bits/wchar.h" 2 3 4
+# 27 "/usr/include/stdint.h" 2 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 28 "/usr/include/stdint.h" 2 3 4
+
+
+
+
+
+
+
+
+typedef signed char int8_t;
+typedef short int int16_t;
+typedef int int32_t;
+
+typedef long int int64_t;
+
+
+
+
+
+
+
+typedef unsigned char uint8_t;
+typedef unsigned short int uint16_t;
+
+typedef unsigned int uint32_t;
+
+
+
+typedef unsigned long int uint64_t;
+# 65 "/usr/include/stdint.h" 3 4
+typedef signed char int_least8_t;
+typedef short int int_least16_t;
+typedef int int_least32_t;
+
+typedef long int int_least64_t;
+
+
+
+
+
+
+typedef unsigned char uint_least8_t;
+typedef unsigned short int uint_least16_t;
+typedef unsigned int uint_least32_t;
+
+typedef unsigned long int uint_least64_t;
+# 90 "/usr/include/stdint.h" 3 4
+typedef signed char int_fast8_t;
+
+typedef long int int_fast16_t;
+typedef long int int_fast32_t;
+typedef long int int_fast64_t;
+# 103 "/usr/include/stdint.h" 3 4
+typedef unsigned char uint_fast8_t;
+
+typedef unsigned long int uint_fast16_t;
+typedef unsigned long int uint_fast32_t;
+typedef unsigned long int uint_fast64_t;
+# 119 "/usr/include/stdint.h" 3 4
+typedef long int intptr_t;
+
+
+typedef unsigned long int uintptr_t;
+# 134 "/usr/include/stdint.h" 3 4
+typedef long int intmax_t;
+typedef unsigned long int uintmax_t;
+# 34 "/opt/Xilinx2018/Vivado/2018.3/lnx64/tools/clang/bin/../lib/clang/3.1/include/stdint.h" 2 3
+# 2 "ntt.c" 2
+# 1 "./params.h" 1
+
+
+
+# 1 "./config.h" 1
+# 5 "./params.h" 2
+# 3 "ntt.c" 2
+# 1 "./reduce.h" 1
+# 10 "./reduce.h"
+uint32_t montgomery_reduce(uint64_t a);
+
+
+uint32_t reduce32(uint32_t a);
+
+
+uint32_t csubq(uint32_t a);
+
+
+uint32_t freeze(uint32_t a);
+# 4 "ntt.c" 2
+# 1 "./ntt.h" 1
+
+
+
+
+
+
+void ntt(uint32_t p[256]);
+void invntt_frominvmont(uint32_t p[256]);
+# 5 "ntt.c" 2
+# 1 "./poly.h" 1
+
+
+
+
+
+
+typedef struct {
+  uint32_t coeffs[256];
+} poly __attribute__((aligned(32)));
+
+void poly_reduce(poly *a);
+void poly_csubq(poly *a);
+void poly_freeze(poly *a);
+
+void poly_add(poly *c, const poly *a, const poly *b);
+void poly_sub(poly *c, const poly *a, const poly *b);
+void poly_shiftl(poly *a);
+
+void poly_ntt(poly *a);
+void poly_invntt_montgomery(poly *a);
+void poly_pointwise_invmontgomery(poly *c, const poly *a, const poly *b);
+
+void poly_power2round(poly *a1, poly *a0, const poly *a);
+void poly_decompose(poly *a1, poly *a0, const poly *a);
+unsigned int poly_make_hint(poly *h, const poly *a0, const poly *a1);
+void poly_use_hint(poly *a, const poly *b, const poly *h);
+
+int poly_chknorm(const poly *a, uint32_t B);
+void poly_uniform(poly *a,
+                  const unsigned char seed[32],
+                  uint16_t nonce);
+void poly_uniform_eta(poly *a,
+                      const unsigned char seed[32],
+                      uint16_t nonce);
+void poly_uniform_gamma1m1(poly *a,
+                           const unsigned char seed[48],
+                           uint16_t nonce);
+
+void polyeta_pack(unsigned char *r, const poly *a);
+void polyeta_unpack(poly *r, const unsigned char *a);
+
+void polyt1_pack(unsigned char *r, const poly *a);
+void polyt1_unpack(poly *r, const unsigned char *a);
+
+void polyt0_pack(unsigned char *r, const poly *a);
+void polyt0_unpack(poly *r, const unsigned char *a);
+
+void polyz_pack(unsigned char *r, const poly *a);
+void polyz_unpack(poly *r, const unsigned char *a);
+
+void polyw1_pack(unsigned char *r, const poly *a);
+# 6 "ntt.c" 2
+
+
+
+
+
+
+
+static const uint32_t zetas[256] = {0, 25847, 5771523, 7861508, 237124, 7602457, 7504169, 466468, 1826347, 2353451, 8021166, 6288512, 3119733, 5495562, 3111497, 2680103, 2725464, 1024112, 7300517, 3585928, 7830929, 7260833, 2619752, 6271868, 6262231, 4520680, 6980856, 5102745, 1757237, 8360995, 4010497, 280005, 2706023, 95776, 3077325, 3530437, 6718724, 4788269, 5842901, 3915439, 4519302, 5336701, 3574422, 5512770, 3539968, 8079950, 2348700, 7841118, 6681150, 6736599, 3505694, 4558682, 3507263, 6239768, 6779997, 3699596, 811944, 531354, 954230, 3881043, 3900724, 5823537, 2071892, 5582638, 4450022, 6851714, 4702672, 5339162, 6927966, 3475950, 2176455, 6795196, 7122806, 1939314, 4296819, 7380215, 5190273, 5223087, 4747489, 126922, 3412210, 7396998, 2147896, 2715295, 5412772, 4686924, 7969390, 5903370, 7709315, 7151892, 8357436, 7072248, 7998430, 1349076, 1852771, 6949987, 5037034, 264944, 508951, 3097992, 44288, 7280319, 904516, 3958618, 4656075, 8371839, 1653064, 5130689, 2389356, 8169440, 759969, 7063561, 189548, 4827145, 3159746, 6529015, 5971092, 8202977, 1315589, 1341330, 1285669, 6795489, 7567685, 6940675, 5361315, 4499357, 4751448, 3839961, 2091667, 3407706, 2316500, 3817976, 5037939, 2244091, 5933984, 4817955, 266997, 2434439, 7144689, 3513181, 4860065, 4621053, 7183191, 5187039, 900702, 1859098, 909542, 819034, 495491, 6767243, 8337157, 7857917, 7725090, 5257975, 2031748, 3207046, 4823422, 7855319, 7611795, 4784579, 342297, 286988, 5942594, 4108315, 3437287, 5038140, 1735879, 203044, 2842341, 2691481, 5790267, 1265009, 4055324, 1247620, 2486353, 1595974, 4613401, 1250494, 2635921, 4832145, 5386378, 1869119, 1903435, 7329447, 7047359, 1237275, 5062207, 6950192, 7929317, 1312455, 3306115, 6417775, 7100756, 1917081, 5834105, 7005614, 1500165, 777191, 2235880, 3406031, 7838005, 5548557, 6709241, 6533464, 5796124, 4656147, 594136, 4603424, 6366809, 2432395, 2454455, 8215696, 1957272, 3369112, 185531, 7173032, 5196991, 162844, 1616392, 3014001, 810149, 1652634, 4686184, 6581310, 5341501, 3523897, 3866901, 269760, 2213111, 7404533, 1717735, 472078, 7953734, 1723600, 6577327, 1910376, 6712985, 7276084, 8119771, 4546524, 5441381, 6144432, 7959518, 6094090, 183443, 7403526, 1612842, 4834730, 7826001, 3919660, 8332111, 7018208, 3937738, 1400424, 7534263, 1976782};
+
+
+static const uint32_t zetas_inv[256] = {6403635, 846154, 6979993, 4442679, 1362209, 48306, 4460757, 554416, 3545687, 6767575, 976891, 8196974, 2286327, 420899, 2235985, 2939036, 3833893, 260646, 1104333, 1667432, 6470041, 1803090, 6656817, 426683, 7908339, 6662682, 975884, 6167306, 8110657, 4513516, 4856520, 3038916, 1799107, 3694233, 6727783, 7570268, 5366416, 6764025, 8217573, 3183426, 1207385, 8194886, 5011305, 6423145, 164721, 5925962, 5948022, 2013608, 3776993, 7786281, 3724270, 2584293, 1846953, 1671176, 2831860, 542412, 4974386, 6144537, 7603226, 6880252, 1374803, 2546312, 6463336, 1279661, 1962642, 5074302, 7067962, 451100, 1430225, 3318210, 7143142, 1333058, 1050970, 6476982, 6511298, 2994039, 3548272, 5744496, 7129923, 3767016, 6784443, 5894064, 7132797, 4325093, 7115408, 2590150, 5688936, 5538076, 8177373, 6644538, 3342277, 4943130, 4272102, 2437823, 8093429, 8038120, 3595838, 768622, 525098, 3556995, 5173371, 6348669, 3122442, 655327, 522500, 43260, 1613174, 7884926, 7561383, 7470875, 6521319, 7479715, 3193378, 1197226, 3759364, 3520352, 4867236, 1235728, 5945978, 8113420, 3562462, 2446433, 6136326, 3342478, 4562441, 6063917, 4972711, 6288750, 4540456, 3628969, 3881060, 3019102, 1439742, 812732, 1584928, 7094748, 7039087, 7064828, 177440, 2409325, 1851402, 5220671, 3553272, 8190869, 1316856, 7620448, 210977, 5991061, 3249728, 6727353, 8578, 3724342, 4421799, 7475901, 1100098, 8336129, 5282425, 7871466, 8115473, 3343383, 1430430, 6527646, 7031341, 381987, 1308169, 22981, 1228525, 671102, 2477047, 411027, 3693493, 2967645, 5665122, 6232521, 983419, 4968207, 8253495, 3632928, 3157330, 3190144, 1000202, 4083598, 6441103, 1257611, 1585221, 6203962, 4904467, 1452451, 3041255, 3677745, 1528703, 3930395, 2797779, 6308525, 2556880, 4479693, 4499374, 7426187, 7849063, 7568473, 4680821, 1600420, 2140649, 4873154, 3821735, 4874723, 1643818, 1699267, 539299, 6031717, 300467, 4840449, 2867647, 4805995, 3043716, 3861115, 4464978, 2537516, 3592148, 1661693, 4849980, 5303092, 8284641, 5674394, 8100412, 4369920, 19422, 6623180, 3277672, 1399561, 3859737, 2118186, 2108549, 5760665, 1119584, 549488, 4794489, 1079900, 7356305, 5654953, 5700314, 5268920, 2884855, 5260684, 2091905, 359251, 6026966, 6554070, 7913949, 876248, 777960, 8143293, 518909, 2608894, 8354570};
+# 28 "ntt.c"
+void ntt(uint32_t p[256]) {_ssdm_SpecArrayDimSize(p, 256);
+  unsigned int len, start, j, k, loop;
+  uint32_t zeta, t;
+
+
+
+
+
+  k = 1;
+
+
+
+  ntt_label32:for(len = 128; len > 0; len >>= 1) {
+
+    for(start = 0; start < 256; start = j + len) {
+        zeta = zetas[k++];
+      ntt_label2:for(j = start; j < start + len; ++j) {
+#pragma HLS PIPELINE
+# 44 "ntt.c"
+
+
+
+
+        t = montgomery_reduce((uint64_t)zeta * p[j + len]);
+        p[j + len] = p[j] + 2*8380417 - t;
+        p[j] = p[j] + t;
+      }
+    }
+  }
+}
+# 66 "ntt.c"
+void invntt_frominvmont(uint32_t p[256]) {_ssdm_SpecArrayDimSize(p, 256);
+  unsigned int start, len, j, k;
+  uint32_t t, zeta;
+  const uint32_t f = (((uint64_t)4193792U*4193792U % 8380417) * (8380417 -1) % 8380417) * ((8380417 -1) >> 8) % 8380417;
+
+
+
+
+
+  k = 0;
+  for(len = 1; len < 256; len <<= 1) {
+    for(start = 0; start < 256; start = j + len) {
+      zeta = zetas_inv[k++];
+      invntt_frominvmont_label3:for(j = start; j < start + len; ++j) {
+        t = p[j];
+        p[j] = t + p[j + len];
+        p[j + len] = t + 256*8380417 - p[j + len];
+        p[j + len] = montgomery_reduce((uint64_t)zeta * p[j + len]);
+      }
+    }
+  }
+
+  for(j = 0; j < 256; ++j) {
+    p[j] = montgomery_reduce((uint64_t)f * p[j]);
+  }
+}

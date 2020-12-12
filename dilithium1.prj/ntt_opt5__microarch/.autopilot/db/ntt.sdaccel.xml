@@ -1,0 +1,175 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'ntt'" level="0">
+<item name = "Date">Sat Dec 12 08:57:22 2020
+</item>
+<item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
+<item name = "Project">dilithium1.prj</item>
+<item name = "Solution">ntt_opt5__microarch</item>
+<item name = "Product family">artix7</item>
+<item name = "Target device">xc7a200tfbg676-2</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Target clock period (ns)">10.00</item>
+<item name = "Clock uncertainty (ns)">1.25</item>
+<item name = "Estimated clock period (ns)">8.363</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">?, ?, ?, ?, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- ntt_label32">?, ?, ?, -, -, 8, no</column>
+<column name=" + ntt_label32.1">?, ?, ?, -, -, ?, no</column>
+<column name="  ++ ntt_label2">?, ?, 8, -, -, ?, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="DSP">-, -, -, -</column>
+<column name="Expression">-, 2, 0, 717</column>
+<column name="FIFO">-, -, -, -</column>
+<column name="Instance">-, -, -, -</column>
+<column name="Memory">1, -, 0, 0</column>
+<column name="Multiplexer">-, -, -, 128</column>
+<column name="Register">-, -, 495, -</column>
+<specialColumn name="Available">730, 740, 269200, 129000</specialColumn>
+<specialColumn name="Utilization (%)">~0, ~0, ~0, ~0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+<column name="zetas_U">ntt_zetas, 1, 0, 0, 256, 23, 1, 5888</column>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="a_assign_fu_271_p2">*, 2, 0, 21, 23, 32</column>
+<column name="j_1_fu_254_p2">+, 0, 0, 38, 1, 31</column>
+<column name="k_1_fu_194_p2">+, 0, 0, 39, 1, 32</column>
+<column name="tmp1_fu_355_p2">+, 0, 0, 62, 55, 55</column>
+<column name="tmp_11_fu_403_p2">+, 0, 0, 39, 32, 32</column>
+<column name="tmp_12_fu_413_p2">+, 0, 0, 39, 32, 32</column>
+<column name="tmp_13_fu_260_p2">+, 0, 0, 38, 31, 31</column>
+<column name="tmp_19_i_fu_364_p2">+, 0, 0, 63, 56, 56</column>
+<column name="tmp_4_fu_199_p2">+, 0, 0, 38, 31, 31</column>
+<column name="tmp_9_fu_239_p2">+, 0, 0, 38, 31, 31</column>
+<column name="sum3_neg_i_fu_318_p2">-, 0, 0, 32, 32, 32</column>
+<column name="sum_neg_i_fu_313_p2">-, 0, 0, 39, 32, 32</column>
+<column name="t_fu_374_p2">-, 0, 0, 64, 57, 57</column>
+<column name="temp_1_fu_324_p2">-, 0, 0, 32, 32, 32</column>
+<column name="tmp_10_fu_393_p2">-, 0, 0, 33, 24, 26</column>
+<column name="icmp_fu_166_p2">icmp, 0, 0, 18, 23, 1</column>
+<column name="tmp_5_fu_204_p2">icmp, 0, 0, 18, 31, 31</column>
+<column name="tmp_8_fu_234_p2">icmp, 0, 0, 18, 31, 31</column>
+<column name="tmp_fu_150_p2">icmp, 0, 0, 18, 29, 1</column>
+<column name="start_fu_218_p3">select, 0, 0, 30, 1, 30</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">56, 13, 1, 13</column>
+<column name="j1_reg_131">9, 2, 31, 62</column>
+<column name="j_reg_119">9, 2, 31, 62</column>
+<column name="k_fu_70">9, 2, 32, 64</column>
+<column name="len_reg_107">9, 2, 8, 16</column>
+<column name="p_address0">21, 4, 8, 32</column>
+<column name="p_d0">15, 3, 32, 96</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="a_assign_reg_503">55, 0, 55, 0</column>
+<column name="ap_CS_fsm">12, 0, 12, 0</column>
+<column name="j1_reg_131">31, 0, 31, 0</column>
+<column name="j_1_reg_488">31, 0, 31, 0</column>
+<column name="j_reg_119">31, 0, 31, 0</column>
+<column name="k_1_reg_455">32, 0, 32, 0</column>
+<column name="k_fu_70">32, 0, 32, 0</column>
+<column name="len_cast_cast4_reg_427">8, 0, 31, 23</column>
+<column name="len_reg_107">8, 0, 29, 21</column>
+<column name="p_addr_1_reg_483">8, 0, 8, 0</column>
+<column name="p_addr_reg_478">8, 0, 8, 0</column>
+<column name="p_load_reg_498">32, 0, 32, 0</column>
+<column name="start_cast_reg_465">30, 0, 31, 1</column>
+<column name="temp_1_reg_528">32, 0, 32, 0</column>
+<column name="temp_reg_508">32, 0, 32, 0</column>
+<column name="tmp_19_reg_513">6, 0, 6, 0</column>
+<column name="tmp_20_reg_518">9, 0, 9, 0</column>
+<column name="tmp_21_reg_523">19, 0, 19, 0</column>
+<column name="tmp_4_reg_460">31, 0, 31, 0</column>
+<column name="tmp_6_cast_reg_470">23, 0, 55, 32</column>
+<column name="tmp_7_reg_535">25, 0, 25, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, ntt, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, ntt, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, ntt, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, ntt, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, ntt, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, ntt, return value</column>
+<column name="p_address0">out, 8, ap_memory, p, array</column>
+<column name="p_ce0">out, 1, ap_memory, p, array</column>
+<column name="p_we0">out, 1, ap_memory, p, array</column>
+<column name="p_d0">out, 32, ap_memory, p, array</column>
+<column name="p_q0">in, 32, ap_memory, p, array</column>
+</table>
+</item>
+</section>
+
+<section name = "Critical Path" level="0">
+<item name = "Max Delay">8.36</item>
+<item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
+<keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
+<column name="'t_cast', reduce.c:52->ntt.c:48">zext, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp1', reduce.c:55->ntt.c:48">add, 2.78, 2.78, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp1_cast', reduce.c:55->ntt.c:48">zext, 0.00, 2.78, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp_19_i', reduce.c:55->ntt.c:48">add, 2.78, 5.56, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp_19_i_cast', reduce.c:55->ntt.c:48">zext, 0.00, 5.56, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'t', reduce.c:55->ntt.c:48">sub, 2.80, 8.36, -, -, -, -, -, -, -, -, -, -, -</column>
+</table>
+</item>
+</section>
+</profile>
