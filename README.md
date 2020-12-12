@@ -2,8 +2,6 @@
 
 ### NTT Results
 
-Table
-
 | Optimization | BRAM | DSP | FF | LUT | Clock Period | Latency |
 |--------------|--------------|--------------|--------------|--------------|--------------|--------------|
 | Unoptimized | 1 | 8 | 516 | 659 | 7.724 | 9998 |
